@@ -1,0 +1,10 @@
+<?php
+ob_start();
+if(!session_id())session_start();
+unset($_SESSION['TR_IS_ADMIN']);
+unset($_SESSION['TR_ADMIN_ID']);
+unset($_SESSION['TR_ADMIN_NAME']);
+session_destroy();
+header("Location:login");
+ob_flush();
+?>
