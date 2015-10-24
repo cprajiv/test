@@ -1,0 +1,21 @@
+Hope you are doing well!
+
+We have developed a File Managment System using a interface provided by you.
+
+You need to create a new database(name filesystem) and import the sql file that is  present at root folder with the name filesystem.sql
+After that you need the change the db credentials in common/constants.php path.
+
+please download all files from following GitHub path.
+https://github.com/cprajiv/test
+
+
+We have used following platform
+PHP version-5.6
+mysql version-5.6
+
+
+
+
+
+
+
